@@ -1,0 +1,4 @@
+backend
+   -express js used in backend for routing purpuse
+   -mongoose used for the database operations
+   -dotenv used for the secured and credentials
