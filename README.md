@@ -7,7 +7,7 @@ Frontend: React
 Backend: Node.js + Express
 
 Database: MySQL
-
+if you want use the sql script
 ------Create .env File in portfolio/-------
 
 PORT=5000
