@@ -7,7 +7,7 @@ import { Showloading, HideLoading, ReloadData } from "../../../redux/rootSlice";
 function AdminCourses() {
   const dispatch = useDispatch();
   const { portfolioData } = useSelector((state) => state.root);
-  const courses = portfolioData?.courses || []; // ✅ use lowercase 'courses' to match DB
+  const courses = portfolioData?.courses || []; 
 
   const [showAddEditModal, setShowAddEditModal] = React.useState(false);
   const [selectedItemForEdit, setSelectedItemForEdit] = React.useState(null);
@@ -80,7 +80,7 @@ function AdminCourses() {
         {courses.map((course) => (
           <div key={course.id} className="shadow border p-5 border-gray-400 flex flex-col">
             <h1 className="text-primary text-xl font-bold">{course.title}</h1>
-            <img src={course.image} alt="" className="h-60 w-60" />
+           <img src={`/images/${course.image}`} alt="course" className="h-60 w-60" />
             <h1>Role: {course.title}</h1>
             <h1>{course.description}</h1>
             <div className="flex justify-end gap-5 mt-5 ">
