@@ -8,10 +8,10 @@ function Footer() {
             </div>
             <div className='flex items-center justify-center flex-col mt-10 opacity-70'>
                 <h1 className='text-white'>Designed and Developed By</h1>
-                <h className="text-white">
+                <h1 className="text-white">
                     <span className='text-white'>Mallikarjun B Y</span>
 
-                </h>
+                </h1>
 
             </div>
 
